@@ -1,0 +1,20 @@
+import requests
+url = 'http://ec2-54-232-203-183.sa-east-1.compute.amazonaws.com:3000/ambiente'
+payload = {'idBebe': '123', 'tempAmbiente': '132', 'umidade': '123'}
+
+# GET
+#r = requests.get(url)
+
+# GET with params in URL
+#r = requests.get(url, params=payload)
+
+# POST with form-encoded data
+#r = requests.post(url, data=payload)
+
+# POST with JSON 
+import json
+r = requests.post(url, data=json.dumps(payload))
+
+# Response, status etc
+r.text
+r.status_code

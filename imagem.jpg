@@ -1,0 +1,11 @@
+--2019-08-22 06:01:41--  http://raspberrypi:8088/?action=snapshot
+Resolvendo raspberrypi (raspberrypi)... 127.0.1.1
+Conectando-se a raspberrypi (raspberrypi)|127.0.1.1|:8088... conectado.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: não especificada [image/jpeg]
+Salvando em: “index.html?action=snapshot”
+
+     0K .......... .......... .......... ........              59,9M=0,001s
+
+2019-08-22 06:01:41 (59,9 MB/s) - “index.html?action=snapshot” salvo [39833]
+
